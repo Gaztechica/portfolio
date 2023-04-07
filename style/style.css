@@ -26,7 +26,7 @@ a{
 }
 
 a:hover{
-	color: ;
+	color: #97f7f0;
 	cursor: pointer;
 	font-size: 20px;
 	text-decoration: underline;
@@ -36,6 +36,10 @@ img{
 	width: 137px;
     height: 72px;
 	border: 0;
+}
+
+.it:hover{
+	border: 3px solid #f00808;
 }
 
 h1{
@@ -106,17 +110,23 @@ h1{
 .port{
 	width: 250px;
 	height: 250px;
-	
 }
 
 .braz, .cod{
-	background-color: blue;
-	
+	background-color: rgb(140, 140, 238);
 	color: #fff;
-	border-radius: 20px;
+	border-radius: 50px;
 	margin: 10px;
 	padding: 10px;
 	align-items: center;
+}
+
+.cod:hover{
+	border: 3px solid #f00808;
+}
+
+.braz:hover{
+	border: 3px solid #f00808;
 }
 
 h2{
@@ -125,11 +135,9 @@ h2{
 
 p{
 	width: 480px;
-	
 }
 
 .sline{
-	
 	width: 70%;	
 	min-height: 80px;
 	margin: 10px 10px 30px;
@@ -143,15 +151,11 @@ p{
 	display: flex;
  	justify-content: space-between;
 	flex-wrap: wrap;
-	
-	
 }
 
 .grid-2{
 	display: flex;
-	
 	flex-direction: colum
-	
 	box-sizing: border-box;
 }
 
