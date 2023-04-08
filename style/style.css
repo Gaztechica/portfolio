@@ -6,7 +6,6 @@ html{
 	background-attachment: fixed;
 	display: flex;
 	min-height: 100%;
-	
 	flex-direction: column;
 }
 
@@ -34,7 +33,7 @@ a:hover{
 
 img{
 	width: 137px;
-    height: 72px;
+   	height: 72px;
 	border: 0;
 }
 
@@ -135,6 +134,9 @@ h2{
 
 p{
 	width: 480px;
+}
+.shad{
+	text-shadow: blue 1px 1px 2px;
 }
 
 .sline{
