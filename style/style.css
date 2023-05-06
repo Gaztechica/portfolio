@@ -146,6 +146,8 @@ h1{
 .braz, .cod{
 	background-color: #3d3de8;
 	color: #fff;
+	width: 155px;
+	height: 60px;
 	border-radius: 50px;
 	border: 2px solid #000;
 	margin: 10px;
@@ -216,12 +218,13 @@ p{
 }
 
 .footer{
+	background-color: bisque;
 	width: 100%;
-	max-width: 960px;
+	max-width: 1200px;
 	min-width: 430px;
 	padding: 15px;
 	margin: auto;
-	color: #f00808;
+	color: #2c248f;
 	box-sizing: border-box;
 }
 
@@ -229,7 +232,7 @@ p{
 	width: 130px;
 	height: 50px;
 	font-size: 25px;
-	color: #f00808;
+	color: #2c248f;
 	text-align: center;
 	margin: 0px 0 0 50px;
 	display: flex;
@@ -249,5 +252,5 @@ p{
 .flexx{
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
