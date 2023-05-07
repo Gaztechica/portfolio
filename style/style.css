@@ -186,7 +186,9 @@ p{
 	height: 80px;
 }
 .grid-1{
-	display: flex;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	box-sizing: border-box;
 }
 
 .grid-2{
